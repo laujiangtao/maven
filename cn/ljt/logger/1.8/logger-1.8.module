@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.ljt",
+    "module": "logger",
+    "version": "1.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "logger-1.8.aar",
+          "url": "logger-1.8.aar",
+          "size": 1931244,
+          "sha512": "0797cccb30be2c7b03cd041fd131725e70fc29b47e28c452d4b71a7caa71a68db0043c55fe3c6e04a01f3a291135c9490954eb6b1ea93bd74d51fe159166dae6",
+          "sha256": "e39e640a1b6e9c5a45e116d207cadeaa76f66b3ea77c0a2f4bb2d266a2cc7bfd",
+          "sha1": "d241933709698c53313ba23227a5238b0d69dfa1",
+          "md5": "5b79c4ecdcbf10c36a404ea6e2a07bf5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "logger-1.8.aar",
+          "url": "logger-1.8.aar",
+          "size": 1931244,
+          "sha512": "0797cccb30be2c7b03cd041fd131725e70fc29b47e28c452d4b71a7caa71a68db0043c55fe3c6e04a01f3a291135c9490954eb6b1ea93bd74d51fe159166dae6",
+          "sha256": "e39e640a1b6e9c5a45e116d207cadeaa76f66b3ea77c0a2f4bb2d266a2cc7bfd",
+          "sha1": "d241933709698c53313ba23227a5238b0d69dfa1",
+          "md5": "5b79c4ecdcbf10c36a404ea6e2a07bf5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tti.kiosk",
+    "module": "watchdog",
+    "version": "1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "watchdog-1.2.aar",
+          "url": "watchdog-1.2.aar",
+          "size": 44257,
+          "sha512": "5f8e6eef7af22112baf03aad1f724f0da55a880a17eb3df94c50dc85f5ea82d2634fb722482c9a30e0b0111e4c80f6cf942e4052c24c765a34fc12a72e6aa480",
+          "sha256": "7488517eb927adde9b39b4cd062ba02c6badea2870b45a6a34dd25b630d46334",
+          "sha1": "d9f629d1377506c663534f8fe235a5d7df09552f",
+          "md5": "a4ded4fd6b21d65526a3f694b0b5ed1b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.9.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "cn.ljt",
+          "module": "alive",
+          "version": {
+            "requires": "1.0.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.tti.kiosk",
+          "module": "heartbeat",
+          "version": {
+            "requires": "2.8"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "watchdog-1.2.aar",
+          "url": "watchdog-1.2.aar",
+          "size": 44257,
+          "sha512": "5f8e6eef7af22112baf03aad1f724f0da55a880a17eb3df94c50dc85f5ea82d2634fb722482c9a30e0b0111e4c80f6cf942e4052c24c765a34fc12a72e6aa480",
+          "sha256": "7488517eb927adde9b39b4cd062ba02c6badea2870b45a6a34dd25b630d46334",
+          "sha1": "d9f629d1377506c663534f8fe235a5d7df09552f",
+          "md5": "a4ded4fd6b21d65526a3f694b0b5ed1b"
+        }
+      ]
+    }
+  ]
+}

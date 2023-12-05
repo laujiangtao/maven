@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tti.kiosk",
+    "module": "heartbeat",
+    "version": "2.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "heartbeat-2.9.aar",
+          "url": "heartbeat-2.9.aar",
+          "size": 16014,
+          "sha512": "dd45e5f06c5501bf9087592d7341dcfd76120c29464815c5036e98607a10f47b9fbc1ec9de667dcf6eba6baeca125f87bf0a9c18e39c070ca2a0aac8662dbb41",
+          "sha256": "199b9ee797f2530bf304f4e903da3c5def54e1d1165479815cb7ee2163003c65",
+          "sha1": "0ee6aa94e907184280a187afe5d612d63e3c3e9c",
+          "md5": "ead237b9d55ae9cf513c4db5b0587a26"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "heartbeat-2.9.aar",
+          "url": "heartbeat-2.9.aar",
+          "size": 16014,
+          "sha512": "dd45e5f06c5501bf9087592d7341dcfd76120c29464815c5036e98607a10f47b9fbc1ec9de667dcf6eba6baeca125f87bf0a9c18e39c070ca2a0aac8662dbb41",
+          "sha256": "199b9ee797f2530bf304f4e903da3c5def54e1d1165479815cb7ee2163003c65",
+          "sha1": "0ee6aa94e907184280a187afe5d612d63e3c3e9c",
+          "md5": "ead237b9d55ae9cf513c4db5b0587a26"
+        }
+      ]
+    }
+  ]
+}

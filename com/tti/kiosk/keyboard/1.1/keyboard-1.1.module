@@ -1,0 +1,58 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tti.kiosk",
+    "module": "keyboard",
+    "version": "1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "keyboard-1.1.aar",
+          "url": "keyboard-1.1.aar",
+          "size": 179483,
+          "sha512": "5b8015eddc4dbdb9bcedf8c604eda4fd7d5ce750c8f33711f63666756beeb11c6c857b8ffc4189666d72532e104d40e7b1dbc54cf3f2f3adbd09601b3332c97b",
+          "sha256": "2f438a5df21d3e65767e15c4fa60e49c459b7e10105d8558add9d4899eca9b64",
+          "sha1": "20fce1b90728c770cb07dda46bbcc09a120a40ee",
+          "md5": "78b1a9e49b393dd131709e6670ec75aa"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "keyboard-1.1.aar",
+          "url": "keyboard-1.1.aar",
+          "size": 179483,
+          "sha512": "5b8015eddc4dbdb9bcedf8c604eda4fd7d5ce750c8f33711f63666756beeb11c6c857b8ffc4189666d72532e104d40e7b1dbc54cf3f2f3adbd09601b3332c97b",
+          "sha256": "2f438a5df21d3e65767e15c4fa60e49c459b7e10105d8558add9d4899eca9b64",
+          "sha1": "20fce1b90728c770cb07dda46bbcc09a120a40ee",
+          "md5": "78b1a9e49b393dd131709e6670ec75aa"
+        }
+      ]
+    }
+  ]
+}

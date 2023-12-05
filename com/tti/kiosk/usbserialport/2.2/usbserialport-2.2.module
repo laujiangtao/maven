@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tti.kiosk",
+    "module": "usbserialport",
+    "version": "2.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.mik3y",
+          "module": "usb-serial-for-android",
+          "version": {
+            "requires": "3.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "usbserialport-2.2.aar",
+          "url": "usbserialport-2.2.aar",
+          "size": 14896,
+          "sha512": "16b4a9634071abee5d29ec58f1fd3730c939e9a61b16c8f2013c37862f3445327b49d335ef8fe9fdc8becddae5e2ae6616d2899c01781e968aae631ef13adc87",
+          "sha256": "0ce92e44502daa2fa609200af8daef26fff54332b2be39dd177944a37f3750e3",
+          "sha1": "ce4aa438fd5b2f45d5bde91113aa8e15d1b4ebd4",
+          "md5": "fba9ff4f17ca5a85b287c68822a631c9"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.mik3y",
+          "module": "usb-serial-for-android",
+          "version": {
+            "requires": "3.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "usbserialport-2.2.aar",
+          "url": "usbserialport-2.2.aar",
+          "size": 14896,
+          "sha512": "16b4a9634071abee5d29ec58f1fd3730c939e9a61b16c8f2013c37862f3445327b49d335ef8fe9fdc8becddae5e2ae6616d2899c01781e968aae631ef13adc87",
+          "sha256": "0ce92e44502daa2fa609200af8daef26fff54332b2be39dd177944a37f3750e3",
+          "sha1": "ce4aa438fd5b2f45d5bde91113aa8e15d1b4ebd4",
+          "md5": "fba9ff4f17ca5a85b287c68822a631c9"
+        }
+      ]
+    }
+  ]
+}

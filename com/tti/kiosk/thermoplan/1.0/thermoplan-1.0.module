@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tti.kiosk",
+    "module": "thermoplan",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.19.2"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protoc",
+          "version": {
+            "requires": "3.19.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "thermoplan-1.0.aar",
+          "url": "thermoplan-1.0.aar",
+          "size": 314109,
+          "sha512": "c1abb4d3db6b1f51c6230cc64c1943089158537d012f21582ffbacf86c35b7cfcf6e7310a7c4884fedeee4ab45d9adcb794f6db1c85cbe1efc937a795e516ee7",
+          "sha256": "eb17d5e64e0137e538a3d76b8829461c36defeb5cb47ca0456efb08472a8097f",
+          "sha1": "41e227233137275ca0ce102d73f5406307ec775e",
+          "md5": "918a148783221686ed7b9aa91e55ae77"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.19.2"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protoc",
+          "version": {
+            "requires": "3.19.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "thermoplan-1.0.aar",
+          "url": "thermoplan-1.0.aar",
+          "size": 314109,
+          "sha512": "c1abb4d3db6b1f51c6230cc64c1943089158537d012f21582ffbacf86c35b7cfcf6e7310a7c4884fedeee4ab45d9adcb794f6db1c85cbe1efc937a795e516ee7",
+          "sha256": "eb17d5e64e0137e538a3d76b8829461c36defeb5cb47ca0456efb08472a8097f",
+          "sha1": "41e227233137275ca0ce102d73f5406307ec775e",
+          "md5": "918a148783221686ed7b9aa91e55ae77"
+        }
+      ]
+    }
+  ]
+}
