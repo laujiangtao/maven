@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.ljt",
+    "module": "btservice",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "btservice-1.0.aar",
+          "url": "btservice-1.0.aar",
+          "size": 316608,
+          "sha512": "c858ea60c70cd05b5b381d8e776e32bc0884f1699ae717ba08028e001fda999c5b8c07ddb1ed9d4ed7846d6eee80f464743415b55968f92d557e342ca9378ecd",
+          "sha256": "d8c8eb1fbedc663af5b6ecd3ec7448ff520a80d653fae7cff041a40ec6c4ffa9",
+          "sha1": "c02725a6eea2efd222e5ddcf7b8a9d1c3314bfea",
+          "md5": "356e1cf36b9547512198983bf7e03e3d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "btservice-1.0.aar",
+          "url": "btservice-1.0.aar",
+          "size": 316608,
+          "sha512": "c858ea60c70cd05b5b381d8e776e32bc0884f1699ae717ba08028e001fda999c5b8c07ddb1ed9d4ed7846d6eee80f464743415b55968f92d557e342ca9378ecd",
+          "sha256": "d8c8eb1fbedc663af5b6ecd3ec7448ff520a80d653fae7cff041a40ec6c4ffa9",
+          "sha1": "c02725a6eea2efd222e5ddcf7b8a9d1c3314bfea",
+          "md5": "356e1cf36b9547512198983bf7e03e3d"
+        }
+      ]
+    }
+  ]
+}
