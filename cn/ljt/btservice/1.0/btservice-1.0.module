@@ -26,11 +26,11 @@
         {
           "name": "btservice-1.0.aar",
           "url": "btservice-1.0.aar",
-          "size": 317176,
-          "sha512": "43a5a98263dd47c9b5b5b32e069a4fe90a8df1ac1e114750c840e033a976b0bbdde42d6f6671b3903dc2af29b5a5d7d79c3c73b1b53bc1e6d2b590b59456f5ee",
-          "sha256": "fd16649472e4a7f6da7eeed29019256c5476aa1d034fa7b85abc83f68d77252e",
-          "sha1": "a4672397a444708f6f155033ec5d2f48a482e151",
-          "md5": "f2a6180e0bd25795ff4cb27b5134b817"
+          "size": 316795,
+          "sha512": "a5c2c71984755100bb4d5e0173f0806fba15a6df175772f14d9069722cf4a98a4fe0cc3960a0b67fdb77ff88b041bb0826b16afeeee91e4546a3661ad09233ae",
+          "sha256": "5f78be42d8504951de675fca161fc980373ce5fbc08eb4061421abe8a53ec33a",
+          "sha1": "c8cb7499bdc96507a65f2ac59fcdf1c759ae6449",
+          "md5": "6ac60677d230d9ff6c4a1cb00aa26c01"
         }
       ]
     },
@@ -62,11 +62,11 @@
         {
           "name": "btservice-1.0.aar",
           "url": "btservice-1.0.aar",
-          "size": 317176,
-          "sha512": "43a5a98263dd47c9b5b5b32e069a4fe90a8df1ac1e114750c840e033a976b0bbdde42d6f6671b3903dc2af29b5a5d7d79c3c73b1b53bc1e6d2b590b59456f5ee",
-          "sha256": "fd16649472e4a7f6da7eeed29019256c5476aa1d034fa7b85abc83f68d77252e",
-          "sha1": "a4672397a444708f6f155033ec5d2f48a482e151",
-          "md5": "f2a6180e0bd25795ff4cb27b5134b817"
+          "size": 316795,
+          "sha512": "a5c2c71984755100bb4d5e0173f0806fba15a6df175772f14d9069722cf4a98a4fe0cc3960a0b67fdb77ff88b041bb0826b16afeeee91e4546a3661ad09233ae",
+          "sha256": "5f78be42d8504951de675fca161fc980373ce5fbc08eb4061421abe8a53ec33a",
+          "sha1": "c8cb7499bdc96507a65f2ac59fcdf1c759ae6449",
+          "md5": "6ac60677d230d9ff6c4a1cb00aa26c01"
         }
       ]
     }
