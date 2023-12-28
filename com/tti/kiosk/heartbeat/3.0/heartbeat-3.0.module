@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tti.kiosk",
+    "module": "heartbeat",
+    "version": "3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "heartbeat-3.0.aar",
+          "url": "heartbeat-3.0.aar",
+          "size": 16523,
+          "sha512": "16da1cae7270831abdeab756b1b308346406d733e969d297826ee5fe9f27d073cfdb8972019beb74cc58c00f3b2deccf3dce59bfab3fcacbfe8a8de88495b93e",
+          "sha256": "08b351c2ff544fa4d07f8c91e7f1f5af7d320059bb72f00e0def143ff3c0f0a3",
+          "sha1": "75cc1b981cbf2ecbbc750c3183fc032f9bea961f",
+          "md5": "d9c9932fda8e2c419c7f1ce77f3ad515"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "heartbeat-3.0.aar",
+          "url": "heartbeat-3.0.aar",
+          "size": 16523,
+          "sha512": "16da1cae7270831abdeab756b1b308346406d733e969d297826ee5fe9f27d073cfdb8972019beb74cc58c00f3b2deccf3dce59bfab3fcacbfe8a8de88495b93e",
+          "sha256": "08b351c2ff544fa4d07f8c91e7f1f5af7d320059bb72f00e0def143ff3c0f0a3",
+          "sha1": "75cc1b981cbf2ecbbc750c3183fc032f9bea961f",
+          "md5": "d9c9932fda8e2c419c7f1ce77f3ad515"
+        }
+      ]
+    }
+  ]
+}
